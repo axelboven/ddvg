@@ -1,0 +1,14 @@
+1|tran1|tran1description|1|2|true
+2|tran2|tran2description|2|6|state2field1=='put'
+3|tran3|tran3description|3|4|true
+4|tran4|tran4description|2|5|state2field1=='get'
+5|tran5|welcome to get request type|7|9|true
+6|tran6|get request type to put|9|11|state9field1=='put'
+7|tran7|get request type to get|9|10|state9field1=='get'
+8|tran8|put to update price|11|13|true
+9|tran9|get to want to start over|10|12|true
+10|tran10|start over to yes|12|7|state12field1==true
+11|tran11|start over to no|12|8|state12field1==false
+12|tran12|update price another grade to yes|14|13|state14field1==true
+13|tran13|update price another grade to no|14|12|state14field1==false
+14|tran14|welcome => custom test|15|17|true

@@ -1,0 +1,617 @@
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-09-03 06:33:26) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 42ms (View: 2, DB: 0) | 200 OK [http://0.0.0.0/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-03 19:03:46) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-03 19:03:52) [GET]
+
+ActionController::RoutingError (No route matches "/home/index" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-09-03 19:06:03) [GET]
+Rendering home/index
+Completed in 43ms (View: 41, DB: 0) | 200 OK [http://localhost/home/index]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-09-03 19:06:38) [GET]
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-03 19:13:58) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-09-03 22:14:15) [GET]
+Rendering home/index
+Completed in 245ms (View: 226, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-09-05 22:55:10) [GET]
+Rendering home/index
+Completed in 121ms (View: 119, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-09-05 22:55:23) [GET]
+Rendering home/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://localhost/home/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-05 23:56:25) [GET]
+
+ActionController::RoutingError (No route matches "/campaigns/" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-05 23:57:06) [GET]
+
+ActionController::RoutingError (No route matches "/campaigns/" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-05 23:57:22) [GET]
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (31.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#1 (for 127.0.0.1 at 2009-09-05 23:57:54) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-05 23:58:11) [GET]
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (69.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index1 (for 127.0.0.1 at 2009-09-05 23:58:16) [GET]
+
+ActionController::UnknownAction (No action responded to index1. Actions: index):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-05 23:58:22) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:00:31) [GET]
+  Parameters: {"id"=>"2"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:00:43) [GET]
+  Parameters: {"id"=>"3"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (30.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:03:08) [GET]
+  Parameters: {"id"=>"3"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (71.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:03:27) [GET]
+  Parameters: {"id"=>"3"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:03:31) [GET]
+  Parameters: {"id"=>"3"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:04:23) [GET]
+  Parameters: {"id"=>"3"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:04:25) [GET]
+  Parameters: {"id"=>"3"}
+
+NameError (uninitialized constant CampaignController::Campaign):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:06:09) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mCampaign Load (0.2ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 3) [0m
+Rendering campaign/index
+Completed in 72ms (View: 5, DB: 0) | 200 OK [http://localhost/campaign/index/3]
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:06:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCampaign Load (0.2ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 1) [0m
+Rendering campaign/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/campaign/index/1]
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:06:46) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCampaign Load (0.2ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 2) [0m
+Rendering campaign/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/campaign/index/2]
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:07:40) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCampaign Load (0.2ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 2) [0m
+Rendering campaign/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #6 of app/views/campaign/index.rhtml:
+3: -->
+4: <vxml version="2.1">
+5:   <var name="goto3" expr="'yes'"/>
+6: <% @states.each do |state| %>
+7:   <form id="state<%= state.id %>">
+8:     <%= state.to_vxml %>
+9:     <block>
+
+    app/views/campaign/index.rhtml:6:in `_run_rhtml_app47views47campaign47index46rhtml'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (89.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index (for 127.0.0.1 at 2009-09-06 00:08:38) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCampaign Load (0.2ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 2) [0m
+  [4;35;1mState Load (0.6ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."campaign" = 2) [0m
+Rendering campaign/index
+  [4;36;1mSay Load (0.2ms)[0m   [0;1mSELECT * FROM "says" WHERE ("says"."state" = 7) LIMIT 1[0m
+  [4;35;1mAudio Load (0.2ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 6) [0m
+  [4;36;1mTransition Load (0.2ms)[0m   [0;1mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 7) [0m
+  [4;35;1mSay Load (0.2ms)[0m   [0mSELECT * FROM "says" WHERE ("says"."state" = 8) LIMIT 1[0m
+  [4;36;1mAudio Load (0.2ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 15) [0m
+  [4;35;1mTransition Load (0.1ms)[0m   [0mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 8) [0m
+  [4;36;1mListen Load (0.2ms)[0m   [0;1mSELECT * FROM "listens" WHERE ("listens"."state" = 9) LIMIT 1[0m
+  [4;35;1mAudio Load (0.2ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 7) [0m
+  [4;36;1mAudio Load (0.1ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 9) [0m
+  [4;35;1mAudio Load (0.1ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 10) [0m
+  [4;36;1mAudio Load (0.2ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 11) [0m
+  [4;35;1mTransition Load (0.2ms)[0m   [0mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 9) [0m
+  [4;36;1mSay Load (0.2ms)[0m   [0;1mSELECT * FROM "says" WHERE ("says"."state" = 10) LIMIT 1[0m
+  [4;35;1mAudio Load (0.2ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 13) [0m
+  [4;36;1mTransition Load (0.4ms)[0m   [0;1mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 10) [0m
+  [4;35;1mListen Load (0.2ms)[0m   [0mSELECT * FROM "listens" WHERE ("listens"."state" = 11) LIMIT 1[0m
+  [4;36;1mAudio Load (0.1ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 12) [0m
+  [4;35;1mAudio Load (0.2ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 25) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 10) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 11) [0m
+  [4;36;1mTransition Load (0.2ms)[0m   [0;1mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 11) [0m
+  [4;35;1mListen Load (0.2ms)[0m   [0mSELECT * FROM "listens" WHERE ("listens"."state" = 12) LIMIT 1[0m
+  [4;36;1mAudio Load (0.1ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 14) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 14) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 10) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 11) [0m
+  [4;36;1mTransition Load (0.2ms)[0m   [0;1mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 12) [0m
+  [4;35;1mCustom Load (0.2ms)[0m   [0mSELECT * FROM "customs" WHERE ("customs"."state" = 13) LIMIT 1[0m
+  [4;36;1mState Load (0.2ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 13) [0m
+  [4;35;1mTransition Load (0.1ms)[0m   [0mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 13) [0m
+  [4;36;1mListen Load (0.2ms)[0m   [0;1mSELECT * FROM "listens" WHERE ("listens"."state" = 14) LIMIT 1[0m
+  [4;35;1mAudio Load (0.1ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 26) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 26) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "audios" WHERE ("audios"."id" = 10) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "audios" WHERE ("audios"."id" = 11) [0m
+  [4;35;1mTransition Load (0.2ms)[0m   [0mSELECT * FROM "transitions" WHERE ("transitions"."from_state_id" = 14) [0m
+Completed in 93ms (View: 25, DB: 6) | 200 OK [http://localhost/campaign/index/2]
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio6"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio6):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio15"}
+  [4;35;1mCampaign Load (0.2ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio15):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio7"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio7):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio9"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio9):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (31.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio10"}
+  [4;36;1mCampaign Load (0.2ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio10):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio11"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio11):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (90.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio13"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio13):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (30.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio12"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio12):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio25"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio25):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (89.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio14"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio14):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio10"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio10):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio11"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio11):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio26"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio26):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (27.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:39) [GET]
+  Parameters: {"id"=>"audio14"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio14):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (27.4ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:40) [GET]
+  Parameters: {"id"=>"audio10"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio10):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (27.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:40) [GET]
+  Parameters: {"id"=>"audio11"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio11):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (86.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:40) [GET]
+  Parameters: {"id"=>"audio26"}
+
+ArgumentError (A copy of CampaignController has been removed from the module tree but is still active!):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:40) [GET]
+  Parameters: {"id"=>"audio10"}
+  [4;36;1mCampaign Load (0.1ms)[0m   [0;1mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio10):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.2ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (not_found)
+
+
+Processing CampaignController#index to wav (for 127.0.0.1 at 2009-09-06 00:08:40) [GET]
+  Parameters: {"id"=>"audio11"}
+  [4;35;1mCampaign Load (0.1ms)[0m   [0mSELECT * FROM "campaigns" WHERE ("campaigns"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Campaign with ID=audio11):
+  app/controllers/campaign_controller.rb:3:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (27.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-06 00:15:24) [GET]
+
+ActionController::RoutingError (No route matches "/says" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#index (for 127.0.0.1 at 2009-09-06 00:15:35) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: hello and parameters):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#index (for 127.0.0.1 at 2009-09-06 00:15:48) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to index. Actions: hello and parameters):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing SayController#hello (for 127.0.0.1 at 2009-09-06 00:19:22) [GET]
+Rendering say/hello
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/say/hello]
+
+
+Processing SayController#parameters (for 127.0.0.1 at 2009-09-06 00:19:38) [GET]
+Rendering say/parameters
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/say/parameters]
